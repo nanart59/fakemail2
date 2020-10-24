@@ -20,21 +20,33 @@ All notable changes to this project will be documented in this file.
     * send mail & don't save it in dir (default)
     * send mail & save it in dir
     * don't send mail, but save it in dir
-  ### admin list saved mails
+  ### admin list saved mails: make better
+  ### public (& widget?) link to contactMe page if plugin is active
  
-## this module onConstruction
+## this module fakeMail2 (fake mail to)
 ====================================
 ## [0.2] - Nan'Art - 2018-10 not published
-	### Added
-		#### add icons
-    #### add
+   ### Added
+	####  icons
+    	#### files & dir
+      * /inc/ dir
+      	+ lib.fakemail.mail.php: librairie mail replace dotclear class mail
+	+ class.fakemail.list.php: class fmMailsList list and order fake mails
       * _admin.php
-        $_menu['Plugins']->addItem(__('Fake mail'),
+        - $_menu['Plugins']->addItem(__('Fake mail')
+	- addBehavior('adminDashboardFavorites'
+	- addBehavior('adminRteFlags'
+	- class fakeMailAdmin
       * _install.php
+      	- settings active
+	- setting storage folder
       * -prepend.php
+      	+ load classes
       * index.php
+      	+ form: active & set/dir/ name in /var/ dir
+
   ### Change & fixed
-    #### no more cass in _define.php
+    #### no more class in _define.php
     #### usage admin
 
 ## old module Construction
