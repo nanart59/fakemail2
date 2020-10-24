@@ -22,6 +22,7 @@ All notable changes to this project will be documented in this file.
     * don't send mail, but save it in dir
   ### admin list saved mails: make better
   ### public (& widget?) link to contactMe page if plugin is active
+  ### add langs dir/files
  
 ## this module fakeMail2 (fake mail to)
 ====================================
