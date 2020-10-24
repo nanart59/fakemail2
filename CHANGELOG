@@ -23,6 +23,7 @@ All notable changes to this project will be documented in this file.
   ### admin list saved mails: make better
   ### public (& widget?) link to contactMe page if plugin is active
   ### add langs dir/files
+  ### add test mail & smtp like mailTestor 0.1 Dotclear plugin
  
 ## this module fakeMail2 (fake mail to)
 ====================================
