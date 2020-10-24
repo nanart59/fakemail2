@@ -49,7 +49,7 @@ All notable changes to this project will be documented in this file.
     #### no more class in _define.php
     #### usage admin
 
-## old module Construction
+## old module fakeMail
 ===========================
 0.1 - fakeMail - last update: 2012/05/15
 	* Name: "fakeMail",
